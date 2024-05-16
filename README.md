@@ -7,6 +7,10 @@
 本工具非常容易使用，功能被完全封装在```auto_persona(character, passage)```这个function之中，以下是一个使用例：
 
 ```python
+from autopersona import AutoPersona
+
+model = AutoPersona("KomeijiForce/Meta-Llama-3-8B-AutoPersona-Chinese")
+
 character = "古明地恋"
 
 passage = '''{| style="text-align:left"
