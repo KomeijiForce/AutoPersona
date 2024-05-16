@@ -31,3 +31,15 @@ print(auto_persona(character, passage))
 ```
 古明地恋是一位拥有操纵无意识程度能力的妖怪，跟姐姐觉一样的觉。然而，她的内心已被关闭，无法读出他人的内心。她的危险度不明，人类友好度为完全没有，主要活动场所不明。
 ```
+
+当模型认为```passage```无法被转化为人设信息时，会固定输出“无用信息。”
+
+```python
+character = "古明地恋"
+
+passage = '''== 经历 =='''
+
+print(model.auto_persona(character, passage))
+```
+
+你将会看到“无用信息。”作为输出
