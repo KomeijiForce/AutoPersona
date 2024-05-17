@@ -46,4 +46,4 @@ print(model.auto_persona(character, passage))
 
 ## 应用
 
-你可以在这个萌娘百科的原始文本[milashkaarshif/MoeGirlPedia_wikitext_raw_archive](https://huggingface.co/datasets/milashkaarshif/MoeGirlPedia_wikitext_raw_archive)上使用AutoPersona，但是我在使用load_dataset的时候遇到了问题，所以你可以看使用我从该repo中的.gz文件中得到的2024年5月的萌娘百科的原始文本[(KomeijiForce/moe_girl_wiki)](KomeijiForce/moe_girl_wiki)上使用。
+你可以在这个萌娘百科的原始文本[milashkaarshif/MoeGirlPedia_wikitext_raw_archive](https://huggingface.co/datasets/milashkaarshif/MoeGirlPedia_wikitext_raw_archive)上使用AutoPersona，但是我在使用load_dataset的时候遇到了问题，所以你可以使用我从该repo中的.gz文件中得到的2024年5月的萌娘百科的原始文本[(KomeijiForce/moe_girl_wiki)](KomeijiForce/moe_girl_wiki)上使用。
